@@ -14,8 +14,8 @@
     "planeMotto": "So let move on.\nPlane ready, take your headshot for playing around here"
   },
   "welcomeScreen": {
-    "title": "KuApp",
-    "motto": "Ứng dụng giải trí hàng đầu",
+    "title": "",
+    "motto": "",
     "loginFBSDK": "Đăng kí",
     "loginGoogleSDK": "Đăng nhập",
     "support": "Hỗ trợ",

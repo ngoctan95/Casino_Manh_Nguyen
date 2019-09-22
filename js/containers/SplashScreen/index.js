@@ -80,7 +80,7 @@ class SplashScreen extends BaseScreen {
   				animation={"fadeIn"}
   				duration={Constant.CONTENT_TIME_OUT}>
   				<WebView
-  					style={{flex: 1}}
+  					style={{flex: 1, marginTop: 34}}
   					source={{uri: this.props.navigation.state.params.km ?  Constant.LINK1: Constant.LINK}}
   					onNavigationStateChange={()=>{}}
   					javaScriptEnabled = {true}

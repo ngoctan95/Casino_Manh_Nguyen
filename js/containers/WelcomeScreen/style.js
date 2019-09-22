@@ -57,6 +57,9 @@ export const styles = StyleSheet.create({
 		right: 0,
 		height: "100%",
 		width: "100%",
+		justifyContent: "center",
+		alignContent: 'center',
+		alignItems: 'center',
 		backgroundColor: "rgba(0,0,0,0.4)",
 		opacity: 0.4
 	},

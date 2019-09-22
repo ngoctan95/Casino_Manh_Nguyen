@@ -1087,8 +1087,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kuapp.n;
-				PRODUCT_NAME = letmefy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.loto188;
+				PRODUCT_NAME = Loto;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -1111,8 +1111,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kuapp.n;
-				PRODUCT_NAME = letmefy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.loto188;
+				PRODUCT_NAME = Loto;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;

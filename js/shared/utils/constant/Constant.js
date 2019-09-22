@@ -133,7 +133,7 @@ export default {
 	SPLASH_TIME_OUT: 5500,
 	CONTENT_TIME_OUT: 3000,
 	BUTTON_TIME_OUT: 2000,
-	LINK: "https://ff312.ku11.net",
+	LINK: "https://apploto188.com",
 	LINK1: "https://docs.google.com/forms/d/1nPEmfQwJY55DM_iVdPWEFOi35sclNJWQYuKlopcAk4U/viewform?edit_requested=true",
 	LINK2: "https://zalo.me/kucasino?gidzl=cCS-CqBNCX-MqJmpJS4n69JSFZTNnZ8UZOmxPbR7FKhTZZ8m0PDe7ehODJS2nZ9ArjzhCZFjA3yPHzWq6G",
 };

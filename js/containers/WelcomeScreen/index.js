@@ -89,35 +89,25 @@ class WelcomeScreen extends BaseScreen {
   				style={styles.absolute}
   				animation={"fadeIn"}
   				duration={Constant.CONTENT_TIME_OUT}>
-  				<View style={{height: "47%", marginTop: 12}}>
-  					<Image source={images.logo} style={{width: 180, marginTop: 90, height:80, alignSelf: "center", justifyContent: "center"}} resizeMethod="resize" resizeMode="contain" />
-  					<Animatable.Text
-  						animation={"bounceInRight"}
-  						duration={Constant.CONTENT_TIME_OUT}
-  						style={styles.motto}>
-  						{langs.motto}
-  					</Animatable.Text>
-
-  				</View>
 
   				<View style={styles.buttonContainer}>
   					<Animatable.View animation="fadeInLeft" duration={Constant.BUTTON_TIME_OUT} style={styles.login}>
   						<IAButton title={langs.loginFBSDK.toUpperCase()} titleStyle={styles.loginTitle} onPress={()=>{this._goToLoginFacebook();}}/>
   					</Animatable.View>
-  					<Animatable.View animation="fadeInRight" duration={Constant.BUTTON_TIME_OUT} style={styles.signUp}>
+  					{/* <Animatable.View animation="fadeInRight" duration={Constant.BUTTON_TIME_OUT} style={styles.signUp}>
   						<IAButton title={langs.loginGoogleSDK.toUpperCase()} titleStyle={styles.signUpTitle} onPress={()=>{this._goToLoginFacebook();}}/>
   					</Animatable.View>
   					<Animatable.View animation="pulse" iterationCount="infinite" duration={Constant.BUTTON_TIME_OUT} style={[styles.login, {backgroundColor: colors.yellow}]}>
   						<IAButton title={langs.km.toUpperCase()} titleStyle={styles.signUpTitle} onPress={()=>{this._goToLoginFacebook1();}}/>
-  					</Animatable.View>
+  					</Animatable.View> */}
   				</View>
   			</Animatable.View>
-  			<TouchableOpacity style={{position: "absolute", bottom: 10, left: 10}} onPress={()=>{this._goToLoginFacebook2();}}>
+  			{/* <TouchableOpacity style={{position: "absolute", bottom: 10, left: 10}} onPress={()=>{this._goToLoginFacebook2();}}>
   				<Animatable.View animation="pulse" iterationCount="infinite">
   					<Image source={images.support} style={{width: 40, height: 40}}/>
   					<Text style={{fontSize: 9, color: colors.white, fontFamily: fonts.family.nunito.bold}}>{langs.support.toUpperCase()}</Text>
   				</Animatable.View>
-  			</TouchableOpacity>
+  			</TouchableOpacity> */}
   		</ImageBackground>
   	);
   }
