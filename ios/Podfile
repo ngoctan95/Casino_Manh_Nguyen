@@ -1,8 +1,8 @@
 platform :ios, '9.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-target 'loto188' do
-  # Pods for loto188
+target 'letmefy' do
+  # Pods for letmefy
   pod 'React', :path => '../node_modules/react-native/'
   pod 'React-Core', :path => '../node_modules/react-native/React'
   pod 'React-DevSupport', :path => '../node_modules/react-native/React'
@@ -27,7 +27,22 @@ target 'loto188' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  target 'loto188Tests' do
+  pod 'RNCAsyncStorage', :path => '../node_modules/@react-native-community/async-storage'
+
+
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
+  pod 'react-native-blur', :path => '../node_modules/@react-native-community/blur'
+
+
+  pod 'RNReanimated', :path => '../node_modules/react-native-reanimated'
+
+  pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
+
+
+  pod 'react-native-webview', :path => '../node_modules/react-native-webview'
+
+  target 'letmefyTests' do
     inherit! :search_paths
     # Pods for testing
   end
@@ -35,10 +50,10 @@ target 'loto188' do
   use_native_modules!
 end
 
-target 'loto188-tvOS' do
-  # Pods for loto188-tvOS
+target 'letmefy-tvOS' do
+  # Pods for letmefy-tvOS
 
-  target 'loto188-tvOSTests' do
+  target 'letmefy-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

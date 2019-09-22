@@ -1,0 +1,24 @@
+{
+  "appName": "Letmefy",
+  "loading": "Loading data...",
+  "splashScreen": {
+    "title": "Letmefy",
+    "motto": "Get your and your friend moments take part in here. \nEverything is will in the heaven"
+  },
+  "introductionScreen": {
+    "btnGetStarted": "Get started",
+    "airBaloonMotto": "Storage moments.\nShare everywhere and everytime",
+    "boatMotto": "Longtrip with pictures? \nTake a shot and push to anyone",
+    "egyptMotto": "You want to go somewhere?\nDon't let memories be forgotten",
+    "moutainMotto": "Go hiking?\nOne shot and share to anyone, huh?",
+    "planeMotto": "So let move on.\nPlane ready, take your headshot for playing around here"
+  },
+  "welcomeScreen": {
+    "title": "KuApp",
+    "motto": "Ứng dụng giải trí hàng đầu",
+    "loginFBSDK": "Đăng kí",
+    "loginGoogleSDK": "Đăng nhập",
+    "support": "Hỗ trợ",
+    "km": "Nhận khuyến mãi"
+  }
+}
